@@ -14,12 +14,13 @@
     <string name="item9">输入你的邮箱</string>
     <string name="item10">你的照片</string>
     <string name="item11">点击以上的按钮去拍照</string>
-
+    <string name="item12">去聊天室</string>
+    <string name="item13">发送</string>
+    <string name="item14">接受</string>
+    <string name="item15">输入这儿</string>
     <string name="item21">输入邮箱地址:</string>
     <string name="item22">在此输入</string>
     <string name="item23">输入你的密码:</string>
     <string name="item24">登录</string>
     <string name="item25">你的文件</string>
-    <string name="item26">你的名字:</string>
-    <string name="item27">输入你的名字</string>
 </resources>

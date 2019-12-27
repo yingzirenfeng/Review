@@ -13,7 +13,10 @@
     <string name="item9">Enter your email</string>
     <string name="item10">Your picture</string>
     <string name="item11">Click the button above to take picture</string>
-
+    <string name="item12">go to chat</string>
+    <string name="item13">send</string>
+    <string name="item14">recieve</string>
+    <string name="item15">Type here</string>
     <string name="item21">Enter your email address:</string>
     <string name="item22">Type email here</string>
     <string name="item23">Type your password:</string>

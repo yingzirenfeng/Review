@@ -5,6 +5,7 @@ import android.graphics.Bitmap;
 import android.os.Bundle;
 import android.provider.MediaStore;
 import android.util.Log;
+import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageButton;
 
@@ -29,6 +30,12 @@ public class ProfileActivity extends AppCompatActivity {
             dispatchTakePictureIntent();
         });
 
+        Button button =(Button)findViewById(R.id.button);
+        if(button!= null)
+            button.setOnClickListener(v -> {
+                Intent goToPage2 = new Intent(ProfileActivity.this, ChatRoomActivity.class);
+                startActivity(goToPage2);
+            });
     }
 
     private void dispatchTakePictureIntent() {
